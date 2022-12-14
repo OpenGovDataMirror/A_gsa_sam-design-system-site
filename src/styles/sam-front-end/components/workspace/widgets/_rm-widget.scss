@@ -1,0 +1,58 @@
+.rm-widget {
+
+  .sam-autocomplete{
+    margin-top: 20px
+  }
+
+  .fa-times-circle {
+    display: none
+  }
+
+  .fsd-widget {
+    @include fsd-searchbar;
+
+    .sam-autocomplete {
+      margin-top: 0;
+    }
+
+    select {
+      border: 1px solid !important;
+    }
+  }
+
+  .usa-form-hint {
+    display: none;
+  }
+
+  .search-filter-alignment {
+    display: flex;
+  }
+  #filter-sel {
+    width: 30%;
+    margin: auto 2px;
+    label {
+      display: none;
+    }
+  }
+  #ppl-sel {
+    width: 70%;
+    margin:auto 2px;
+    label {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width:1199px){
+  .workspace-rm-widget {
+    .filter-align {
+      width: 100%;
+      display: inline-block;
+    }
+
+    .search-box-align {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+}

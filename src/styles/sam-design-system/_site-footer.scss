@@ -1,0 +1,17 @@
+.site-footer {
+  padding: 10px 0;
+  border-top: 2px solid rgba(207,215,223,.25);
+}
+
+.site-footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media (min-width: 670px) {
+  .site-footer ul{
+      display: flex;
+      align-items: center
+  }
+}

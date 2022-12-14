@@ -1,0 +1,66 @@
+.grant-access {
+  .usa-alert-text {
+    white-space: pre-line;
+  }
+
+  .pointing {
+    margin-top: 0;
+  }
+
+  .sam-autocomplete-multiselect-input {
+    background-color: white;
+  }
+
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 5.2em;
+  }
+
+  .usa-tabs {
+    margin-top: .5em;
+  }
+
+  .usa-tabs-content {
+    padding: 10px 0;
+  }
+
+  select, .sam-autocomplete {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section-title-span{
+    display: inline-block;
+    color: $color-black;
+  }
+
+  .content-container {
+    max-width: 100% !important;
+  }
+
+  .form-section {
+    border: none !important;
+  }
+
+  #check-icon {
+    color: #21ba45;
+  }
+
+  #org-picker {
+    .main-input .main-container {
+      width: auto;
+    }
+    input {
+      border: 1px solid #5b616b;
+      height: 4.4rem;
+    }
+    #agency-modal-button {
+      border: 1px solid #5b616b;
+    }
+    #federalHierarchy-listbox {
+      width: inherit !important;
+      z-index: 99999;
+    }
+  }
+}

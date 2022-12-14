@@ -1,0 +1,118 @@
+.organization-profile{
+  margin-left: 8px;
+
+  title-and-section {
+    h1 {
+      overflow-wrap: break-word;
+      -ms-word-break: break-all;
+      word-break: break-all;
+    }
+  }
+
+  .org-info-value {
+    overflow-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+  }
+
+  .sam-ui.grid > .column {
+    padding-left: 0;
+  }
+
+  a:hover, .fa-pencil:hover{
+    cursor: pointer;
+  }
+
+  .org-notification{
+    min-height: 36px;
+  }
+
+  .current-hierarchy-link{
+    color: $color-black;
+    text-decoration: none;
+  }
+
+  .procurement-radio-btn {
+    width: 1px;
+  }
+
+  .procurement-radio-label {
+    width: 200px;
+    display:inline-block;
+  }
+
+  .aac-detail-span {
+    top: 1.25rem;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .sam.button {
+    padding: 0.9em 1.5em 0.9em;
+    font-size: 1.7rem;
+    margin: 0em 0.25em 0em 0em;
+    border-radius: 0.3rem;
+    font-weight: 600;
+  }
+
+  .aac-code-input, .aac-detail-code {
+    position: absolute;
+    text-transform:uppercase;
+    top: 0;
+    left: 0;
+  }
+
+  .aac-detail-code{
+    z-index: 1;
+    top: 1.30rem;
+    left: 1.5rem;
+    width: 20%;
+  }
+
+  .aac-code-input {
+    padding-left: 3.5rem;
+  }
+
+  .usa-alert {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    background-size: 2.2rem;
+    height: 5rem;
+  }
+  .usa-alert-body {
+    padding-left: 2.2rem;
+  }
+  .usa-alert {
+    margin-bottom: 0px;
+    background-size: 3.2rem;
+    background-position: 1rem 45%;
+    height: inherit;
+    padding-left: 2.5rem;
+    ul {
+      padding-inline-start: 20px;
+      margin: 0;
+    }
+    p.usa-alert-text {
+      padding-bottom: 0 !important;
+    }
+  }
+
+  .profile-edit-btn {
+    color: #0071bc;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .has-inactive-office {
+    line-height: 1.2em;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+  .wid-title{
+    width: 23.50% !important;
+  }
+  .wid-val{
+    width: 24% !important;
+  }
+  .status-mag{
+    margin-left: -.8em;
+  }
+}
